@@ -636,7 +636,7 @@
   }
   !(function () {
     function t() {
-      var t = document.getElementById('retell-widget');
+      var t = document.getElementById('syntalia-widget');
       if (t) {
         var n = t.getAttribute('data-public-key');
         if (n) {
@@ -840,7 +840,7 @@
           );
       } else
         console.error(
-          "Retell Widget: Script tag with id 'retell-widget' not found."
+          "Retell Widget: Script tag with id 'syntalia-widget' not found."
         );
       function V() {
         !(function (e, t, n, r) {
